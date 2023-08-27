@@ -1,4 +1,4 @@
-[t,x]=ode45(@DIF,[0 50], [0 (35*pi)/180 0 0]);
+[t,x]=ode45(@DIF,[0 50], [0 0.5 0 0]);
 figure(1)
 plot(t,x(:,1));
 grid on
